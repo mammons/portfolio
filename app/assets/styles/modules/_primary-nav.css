@@ -1,0 +1,30 @@
+.primary-nav{
+  padding-top: 50px;
+  padding-right: 25px;
+
+
+  @mixin atMedium{
+    &--pull-right{
+      display: flex;
+      justify-content: flex-end;
+
+      ul{
+        margin: 0;
+        padding: 0;
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      li{
+        list-style: none;
+      }
+
+      a{
+        text-decoration: none;
+        color: #FFF;
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -8,11 +8,25 @@
   &__brand{
     position: absolute;
     color: #FFF;
-    font-size: 3rem;
     padding-left: 50px;
 
     @mixin atMedium{
       padding: 0;
+    }
+
+    &--lead-letter-lg{
+      @mixin atMedium{
+        font-size: 3rem;
+    }
+  }
+
+    &--lagging-letter{
+      display: none;
+
+      @mixin atSmall{
+        display: inline;
+        font-size: 1rem;
+      }
     }
   }
 }

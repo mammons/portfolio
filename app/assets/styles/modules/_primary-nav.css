@@ -1,11 +1,11 @@
 .primary-nav{
   padding-top: 50px;
   padding-right: 25px;
+  display: flex;
 
 
   @mixin atMedium{
     &--pull-right{
-      display: flex;
       justify-content: flex-end;
 
       ul{

@@ -1,10 +1,32 @@
 .primary-nav{
-  padding-top: 50px;
-  padding-right: 25px;
   display: flex;
+  justify-content: center;
+
+    ul{
+      padding: 0;
+      width: 100%;
+    }
+
+    li{
+      list-style: none;
+      padding: 20px 0;
+      width: 100%;
+      text-align: center;
+      border-bottom: 1px solid #FFF;
+
+      &:last-child{
+        border: none;
+      }
+    }
+
+    a{
+      text-decoration: none;
+      color: #FFF;
+    }
 
 
   @mixin atMedium{
+
     &--pull-right{
       justify-content: flex-end;
 
@@ -17,7 +39,8 @@
       }
 
       li{
-        list-style: none;
+        width: auto;
+        border: none;
       }
 
       a{

@@ -10,3 +10,6 @@
 @import 'modules/_row';
 @import 'modules/_text-content';
 @import 'modules/_hero';
+@import 'modules/_headline';
+@import 'modules/_page-section';
+@import 'modules/_project';

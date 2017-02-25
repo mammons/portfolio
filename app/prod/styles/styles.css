@@ -501,7 +501,7 @@ a{
   padding-right: 0;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .wrapper--no-padding-until-medium {
     padding-left: 18px;
@@ -569,7 +569,7 @@ a{
   color: #FFF;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .primary-nav--pull-right {
     -webkit-box-pack: end;
@@ -592,6 +592,7 @@ a{
   .primary-nav--pull-right li {
     width: auto;
     border: none;
+    padding-right: 50px;
   }
 
   .primary-nav--pull-right a {
@@ -618,7 +619,7 @@ a{
   height: 150px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .site-header {
     height: 100px;
@@ -632,14 +633,13 @@ a{
   font-family: 'Raleway', sans-serif;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
-  .site-header__brand {
-    padding: 0;
+  .site-header__brand {/*padding-left: ;*/
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .site-header__brand--lead-letter-lg {
     font-size: 3rem;
@@ -712,7 +712,7 @@ a{
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .site-header__menu-icon {
     display: none;
@@ -740,9 +740,14 @@ a{
   background-color: rgba(0, 0, 0, 0.85);
 }
 
+.site-header--collapsed{
+  height: 40px;
+}
+
 .site-header__menu-content{
   opacity: 0;
   padding-top: 30px;
+  position: relative;
   z-index: -10;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
@@ -750,7 +755,7 @@ a{
   transition: all .3s ease-out;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .site-header__menu-content {
     opacity: 1;
@@ -782,6 +787,14 @@ a{
   padding-right: 65px;
 }
 
+.row--gutters-small{
+  margin-right: -45px;
+}
+
+.row--gutters-small > div{
+  padding-right: 45px;
+}
+
 .row--b-margin{
   margin-bottom:30px;
 }
@@ -794,7 +807,7 @@ a{
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .row__medium-3 {
     float: left;
@@ -812,7 +825,7 @@ a{
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .row--equal-height {
     display: -webkit-box;
@@ -877,6 +890,13 @@ a{
 
 .hero__title{
   color: #FFF;
+}
+
+@media (min-width: 760px) {
+
+  .hero__title {
+    font-size: 2.8rem;
+  }
 }
 
 .hero__subtitle{
@@ -958,7 +978,7 @@ a{
   font-size: 1rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 760px) {
 
   .project__description {
     padding: 20px 20px 0 20px;

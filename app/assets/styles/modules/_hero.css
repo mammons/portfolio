@@ -19,6 +19,10 @@
 
   &__title{
     color: #FFF;
+
+    @mixin atMedium{
+      font-size: 2.8rem;
+    }
   }
 
   &__subtitle{

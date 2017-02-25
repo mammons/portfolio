@@ -3,7 +3,6 @@ import $ from 'jquery';
 class MobileNav{
   constructor(){
     this.siteHeader = $('.site-header');
-    console.log(this.siteHeader);
     this.menuIcon = $('.site-header__menu-icon');
     this.menuContent = $('.site-header__menu-content');
     this.events()

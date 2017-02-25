@@ -13,3 +13,6 @@
 @import 'modules/_headline';
 @import 'modules/_page-section';
 @import 'modules/_project';
+@import 'modules/_contact';
+@import 'modules/_site-footer';
+@import 'modules/_blog';

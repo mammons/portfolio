@@ -9,4 +9,8 @@
       font-size: 1.25rem;
     }
   }
+
+  &--t-padding{
+    padding-top: 15px;
+  }
 }

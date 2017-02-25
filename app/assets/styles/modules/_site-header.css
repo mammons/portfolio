@@ -19,6 +19,7 @@
     position: absolute;
     color: #FFF;
     padding-left: 50px;
+    font-family: 'Raleway', sans-serif;
 
     @mixin atMedium{
       padding: 0;

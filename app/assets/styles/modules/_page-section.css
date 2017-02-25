@@ -4,4 +4,8 @@
     background-color: #000;
     color: $khaki;
   }
+
+  &--b-padding{
+    padding-bottom: 50px;
+  }
 }

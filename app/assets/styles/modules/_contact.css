@@ -1,0 +1,14 @@
+.contact{
+  display: flex;
+
+  &__icons{
+    display: flex;
+    justify-content: center;
+  }
+
+  &__icon{
+    max-height: 100px;
+    max-width: 100px;
+    padding: 5px;
+  }
+}

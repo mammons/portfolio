@@ -1,6 +1,8 @@
 .row{
-
-  @mixin clearfix;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 
   &--gutters{
     margin-right: -65px;
@@ -18,6 +20,14 @@
     padding-right: 45px;
   }
 
+  &--gutters-large{
+    margin-right: -100px;
+  }
+
+  &--gutters-large > div{
+    padding-right: 100px;
+  }
+
   &--b-margin{
     margin-bottom:30px;
   }
@@ -30,6 +40,9 @@
   }
 
   @mixin atMedium{
+    justify-content: space-around;
+    flex-flow: row;
+
     &__medium-3{
       float:left;
       width: 25%;
@@ -49,7 +62,28 @@
       float: left;
       width: 66.66%;
     }
+  }
 
+  @mixin atLarge{
+    &__large-3{
+      float:left;
+      width: 25%;
+    }
+
+    &__large-4{
+      float: left;
+      width: 33.33%;
+    }
+
+    &__large-6{
+      float: left;
+      width: 50%;
+    }
+
+    &__large-8{
+      float: left;
+      width: 66.66%;
+    }
   }
 
   @mixin atLarge{
@@ -76,9 +110,6 @@
 
   &--equal-height{
     @mixin atMedium{
-     display: flex;
-
-
       & > div{
         float: none;
         display: flex;

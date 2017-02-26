@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <title>You Can Do This</title>
+  <title>Matt Ammons Portfolio</title>
   <meta name="description" content="A page for Matt Ammons to show some things he's enjoyed working on and to talk about his journey to becoming a web developer.">
 
   <link rel="stylesheet" href="prod/styles/styles.css">
@@ -54,9 +54,13 @@
       <h2 class="headline headline--centered">
           ABOUT
         </h2>
-      <div class="row row--gutters row--b-margin">
+      <div class="row row--gutters-small row--b-margin">
         <div class="row__medium-4">
-          <img src="./assets/images/Matt-bw-1000.jpg" />
+          <picture>
+            <source sizes= "600px" srcset="./assets/images/Matt-lg-bw.jpg 600w" media="(min-width:1020px)">
+            <source sizes= "300px" srcset="./assets/images/Matt-med-bw.jpg 300w" media="(min-width:760px)">
+            <img srcset="./assets/images/Matt-bw-sm-lg-bw.jpg 300w"  id="aboutPhoto" alt="Matt the creator">
+          </picture>
         </div>
         <div class="row__medium-8">
           <div class="text-content text-content--t-padding">
@@ -70,7 +74,7 @@
     </div>
   </div>
 
-  <div id="projects" class="page-section page-section--black page-section--b-padding" data-matching-link="#projects-link">
+  <div id="projects" class="page-section page-section--gray page-section--b-padding" data-matching-link="#projects-link">
     <div class="wrapper">
       <h2 class="headline headline--centered">
           PROJECTS
@@ -158,7 +162,7 @@
     </div>
   </div>
 
-  <div id="contact" class="page-section page-section--b-padding page-section--black">
+  <div id="contact" class="page-section page-section--b-padding page-section--gray">
     <div class="wrapper">
       <h2 class="headline headline--centered headline--khaki">
           CONTACT

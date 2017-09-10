@@ -615,7 +615,6 @@ a{
   background-color: rgba(0, 0, 0, .5);
   height: 75px;
   z-index: 2;
-  -webkit-transition: height .3s ease-out;
   transition: height .3s ease-out;
 
 
@@ -683,7 +682,6 @@ a{
   background-color: #FFF;
   -webkit-transform-origin: 0 0;
           transform-origin: 0 0;
-  -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -696,7 +694,6 @@ a{
   width: 20px;
   height: 3px;
   background-color: #FFF;
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   -webkit-transform-origin: 0% 50%;
           transform-origin: 0% 50%;
@@ -712,7 +709,6 @@ a{
   background-color: #FFF;
   -webkit-transform-origin: 0 100%;
           transform-origin: 0 100%;
-  -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -757,7 +753,6 @@ a{
   z-index: -10;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
 
@@ -1075,7 +1070,6 @@ a{
           flex-direction: column;
   padding: 1em;
   width: 100%;/*box-shadow: 0 0 0 0;*/
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;/*&:hover::after{
       opacity: 1;
     }*/

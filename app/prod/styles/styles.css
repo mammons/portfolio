@@ -1018,6 +1018,12 @@ a{
   padding-bottom: 50px;
 }
 
+.page-section--t-padding-for-anchor{
+  padding-top: 100px;
+  margin-top: -100px;
+  background-clip: content-box;
+}
+
 .projects{
   display: -webkit-box;
   display: -ms-flexbox;
